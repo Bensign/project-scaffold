@@ -1,0 +1,14 @@
+!!!
+%html
+  %head
+    %title Hai Gurlfriend
+    %link{:href => "/images/favicon.ico",   :type => "image/x-icon",  :rel => "shortcut icon"}
+    %link{:href => "/stylesheets/main.css", :type => "text/css",      :rel => "stylesheet", :media => "screen"}
+  %body
+    #container
+      %h1
+        %a{:href => "/"} Hai Gurlfriend
+      =yield
+    %script{:type => "text/javascript", :src => "https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
+    %script{:type => "text/javascript", :src => "/javascripts/main.js"}
+    =yield_content :javascript
