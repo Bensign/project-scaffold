@@ -21,5 +21,5 @@ gem "bson_ext", "1.5.2"
 # Allows us to have logic like "Time.now - 1.week.ago"
 gem "activesupport"
 
-# I created some helper tasks for setting up some data / prepping the DB / running the parser.
+# Dem Rake Tasks
 gem "rake"
