@@ -11,8 +11,6 @@ $: << File.expand_path(File.dirname(__FILE__))
 set :views,         './views'
 set :public_folder, './static'
 
-
 get '/' do
   haml :index
 end
-
