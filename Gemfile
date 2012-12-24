@@ -6,17 +6,17 @@ gem "thin"
 # Sinatra for our micro-framework
 gem "sinatra"
 
-# I'd like to render all JS at the bottom of the page.
-gem "sinatra-content-for"
+# Rails-like helpers for sinatra.  Includes things like content for.
+gem "sinatra-contrib"
 
 # Personal preference for generating HTML
 gem "haml"
 
 # Our basic driver to Mongo...
-gem "mongo", "1.5.2"
+gem "mongo"
 
 # ...and a suggested library to speed things up.
-gem "bson_ext", "1.5.2"
+gem "bson_ext"
 
 # Allows us to have logic like "Time.now - 1.week.ago"
 gem "activesupport"
